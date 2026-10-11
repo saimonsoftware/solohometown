@@ -1,0 +1,77 @@
+body{
+    color: white;
+    text-align: center;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(kilkenny-city.jpeg);
+    background-size: cover;
+    padding: 0px 0px 150px 0px;
+    margin: -8px
+}
+
+.heading{
+    background-color: black;
+    margin: 20px;
+    border: 3px solid white;
+}
+
+.subheading{
+    text-shadow: 2px 2px 5px black;
+}
+
+#section1{
+    color: black;
+}
+
+.sectionheading{
+    background-color: bisque;
+    margin-bottom: -10px;
+}
+
+.sites{
+    background-color: beige;
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   color: black;
+}
+
+.siteimg{
+    size: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 100%;
+}
+
+.tourer{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 25px;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    border-bottom: solid beige 10px;
+    margin: 20px auto;
+
+}
+
+.tourguide{
+    padding: 30px;
+    display: flex;
+    size: 50px;
+    height: 200px;
+}
+
+.cardtext{
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
